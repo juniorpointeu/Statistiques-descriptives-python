@@ -1,10 +1,11 @@
 
-
 # 📊 Outil d’Analyse Statistique Descriptive en Python
 
 ## 🎯 Objectif
+
 Ce projet est un outil en **Python** permettant d’effectuer des analyses statistiques descriptives sur différents types de variables.  
 Il a été conçu comme un projet personnel afin de démontrer :
+
 - La maîtrise de **Python** (structuration de code, menus interactifs, modularité),
 - La compréhension des **concepts de statistique descriptive** (valeurs centrales, dispersion, corrélation…),
 - La capacité à transformer ces concepts en un programme pratique.
@@ -14,16 +15,19 @@ Il a été conçu comme un projet personnel afin de démontrer :
 ## ⚙️ Fonctionnalités principales
 
 ### 1️⃣ Variables discrètes univariées
+
 - Tableau statistique : effectifs, ECC, FCC  
 - Valeurs centrales : moyenne, médiane, mode  
 - Valeurs de dispersion : variance, écart-type, étendue, quartiles, interquartile  
 
 ### 2️⃣ Variables continues univariées
+
 - Tableau statistique : classes, centres, densités, ECC, FCC  
 - Valeurs centrales : moyenne, médiane, mode, classe modale  
 - Valeurs de dispersion : variance, écart-type, étendue, quartiles, interquartile  
 
 ### 3️⃣ Variables discrètes bivariées
+
 - Moyennes des deux variables  
 - Variances et écarts-types  
 - Covariance  
@@ -31,6 +35,7 @@ Il a été conçu comme un projet personnel afin de démontrer :
 - Coefficient de corrélation (avec interprétation)  
 
 ### 4️⃣ Variables continues bivariées
+
 - Distribution marginale  
 - Moyennes marginales  
 - Covariance  
@@ -40,13 +45,12 @@ Il a été conçu comme un projet personnel afin de démontrer :
 
 ## 📂 Structure du projet
 ```
-
 Statistiques-descriptives-python/
 ├── main.py        # Programme principal avec menu interactif
 ├── function.py    # Fonctions de calculs statistiques
 ├── README.md      # Documentation du projet
 └── screenshots/   # Captures d’écran (menu + résultats des 4 parties)
-
+````
 
 ---
 
@@ -56,12 +60,12 @@ Statistiques-descriptives-python/
    ```bash
    git clone https://github.com/juniorpointeu/Statistiques-descriptives-python.git
    cd Statistiques-descriptives-python
-````
+   ````
 
 2. **Exécuter le programme** :
-
+   ```bash
    python main.py
-
+   ````
 
 3. **Suivre le menu interactif** pour entrer les données et choisir l’analyse à effectuer.
 
